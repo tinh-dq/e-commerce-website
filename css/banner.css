@@ -1,0 +1,45 @@
+.container-banner {
+	padding-top: 74px;
+	display: flex;
+	padding-right: 94px;
+	margin-bottom: 90px;
+}
+.container-banner__content {
+	display: flex;
+	flex-direction: column;
+	margin-right: 98px;
+}
+
+.container-banner__content h1 {
+	font-size: 74px;
+	line-height: 55px;
+	font-weight: 300;
+	margin-bottom: 55px;
+	background-color: transparent;
+}
+
+.container-banner__content p {
+	font-size: 30px;
+	line-height: 55px;
+	color: #000;
+	margin-bottom: 63px;
+}
+.container-banner__content button {
+	background-color: #1e2832;
+	color: #fff;
+	font-size: 29px;
+	line-height: 34px;
+	padding: 19px 26px;
+	text-transform: capitalize;
+	width: 250px;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+}
+.container-banner__content button i {
+	margin-right: 10px;
+}
+
+.container-banner__content button:hover {
+	background-color: rgb(235, 115, 115);
+}

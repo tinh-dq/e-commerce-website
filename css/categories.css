@@ -1,0 +1,34 @@
+.categories {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+.categories .main-style {
+  position: relative;
+  padding-left: 52px;
+}
+.categories p {
+  color: #000;
+  position: absolute;
+  top: 50%;
+  left: 26px;
+  line-height: 40px;
+  font-size: 34px;
+  text-transform: uppercase;
+  transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+
+.categories .main-style {
+  /* margin-right: 24px; */
+}
+
+.categories .description-styles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  /* justify-content: space-evenly; */
+}
+.categories .description-styles img {
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
