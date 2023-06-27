@@ -34,7 +34,6 @@
   border-bottom: 2px solid #000;
   font-size: 16px;
   font-weight: 600;
-  text-transform: capitalize;
 }
 #subscribe-form input[type='submit'] {
   display: flex;
