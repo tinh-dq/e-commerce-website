@@ -39,7 +39,6 @@
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   font-size: 48px;
-  transition: width 0.5s;
 }
 .instagram-img__item:hover .subcribe-instagram__top-icon {
   display: flex;
