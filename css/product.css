@@ -2,7 +2,12 @@
   width: 100%;
   margin-bottom: 140px;
 }
-.products h2 {
+.slider-products {
+  width: 100%;
+  margin-bottom: 140px;
+}
+.products h2,
+.slider-products h2 {
   font-size: 50px;
   font-weight: 500;
   text-align: center;
@@ -29,6 +34,9 @@
   left: 0;
   top: 22px;
 }
+.product-top img {
+  max-height: 400px;
+}
 .product-top__tag.hot {
   background-color: #ff6f61;
 }
@@ -46,6 +54,7 @@
   bottom: 0;
   background-color: #1e2832;
   color: #fff;
+  border: none;
 }
 .product__access--left {
   padding: 15px 0 15px 14px;
@@ -116,6 +125,7 @@
 .slider-products__button,
 .products-menu__button {
   padding: 5px 15px;
+  border: none;
   border-radius: 2px;
   color: white;
   background-color: black;

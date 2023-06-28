@@ -6,8 +6,7 @@
 @import url('./brand.css');
 @import url('./categories.css');
 @import url('./product.css');
-@import url('./slider-product.css');
-@import url('./newsletter.css');
+@import url('./subscribe.css');
 
 :root {
   font-family: 'Roboto', sans-serif;

@@ -1,23 +1,48 @@
-.newsletter {
+.subscribe {
   width: 100%;
   padding: 100px 0;
   background: var(--black-5, rgba(30, 40, 50, 0.05));
 }
-.newsletter h2 {
+.subscribe h2 {
   font-size: 50px;
   font-weight: 500;
   text-transform: capitalize;
   text-align: center;
 }
-.instagram-container {
+.subscribe-instagram__container {
   margin: 60px 0 70px 0;
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-.instagram-container img {
+.instagram-img__item {
   width: 200px;
   height: 200px;
+  position: relative;
+}
+.subscribe-instagram__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
+.subcribe-instagram__top-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 48px;
+  transition: width 0.5s;
+}
+.instagram-img__item:hover .subcribe-instagram__top-icon {
+  display: flex;
 }
 #subscribe-form {
   margin-top: 74px;

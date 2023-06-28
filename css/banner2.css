@@ -9,8 +9,8 @@
 }
 .banner2-container {
   position: absolute;
-  top: 30%;
-  right: 10%;
+  top: 233px;
+  right: 333px;
   width: 505px;
   color: #fff;
 }
@@ -18,15 +18,24 @@
   height: 187px;
   margin-bottom: 55px;
   font-size: 26px;
-  font-family: Roboto;
   line-height: 40px;
   text-transform: capitalize;
+}
+.banner2__logo1 {
+  position: absolute;
+  top: 51px;
+  right: -56px;
+  width: 732px;
+  height: 310px;
+  opacity: 0.8;
 }
 .banner2__logo2 {
   margin-bottom: 55px;
 }
 .banner2__button {
   width: fit-content;
+  border: none;
+  border-radius: 4px;
   color: #000;
   background-color: #fff;
   font-size: 29px;
